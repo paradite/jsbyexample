@@ -2,6 +2,12 @@
 
 [https://paradite.github.io/jsbyexample/](https://paradite.github.io/jsbyexample/)
 
+## Contributing
+
+Contributions are welcomed!
+
+Simple add more examples into `app.js`.
+
 ## Running
 
 ```bash

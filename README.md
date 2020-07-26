@@ -1,6 +1,6 @@
 # JS By Example
 
-paradite.github.io/jsbyexample
+[https://paradite.github.io/jsbyexample/](https://paradite.github.io/jsbyexample/)
 
 ## Running
 

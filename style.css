@@ -36,7 +36,13 @@ a:hover {
 
 #sidebar {
   position: fixed;
-  left: 10px;
+  left: 8px;
+}
+
+@media screen and (min-width: 900px) {
+  #sidebar {
+    left: 40px;
+  }
 }
 
 .sidebarCategoryTitle {
@@ -51,6 +57,7 @@ a:hover {
   max-width: 600px;
   margin-top: 0;
   margin-left: 88px;
+  margin-right: 8px;
 }
 
 .mainItemTitlePrefix {

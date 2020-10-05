@@ -1,3 +1,40 @@
+const truthyItems = [
+  {
+    name: "number",
+    examples: [
+      `if(0) true`,
+      `if(1) true`,
+      `if(2) true`,
+    ]
+  },
+  {
+    name: "string",
+    examples: [
+      `if("") true`,
+      `if("0") true`,
+    ]
+  },
+  {
+    name: "array",
+    examples: [
+      `if([]) true`,
+    ]
+  },
+  {
+    name: "object",
+    examples: [
+      `if({}) true`,
+    ]
+  },
+  {
+    name: "misc",
+    examples: [
+      `if(undefined) true`,
+      `if(null) true`,
+    ]
+  }
+]
+
 const arrayItems = [
   {
     name: "includes",
@@ -90,6 +127,10 @@ const stringItems = [
 ];
 
 const categories = [
+  {
+    name: "Truthy?",
+    items: truthyItems,
+  },
   {
     name: "Array",
     items: arrayItems,

@@ -1,6 +1,6 @@
 body {
   font-family: Sans-Serif;
-  max-width: 800px;
+  max-width: 820px;
   margin: 0 auto;
   font-size: 16px;
 }
@@ -47,10 +47,15 @@ a:hover {
 
 .sidebarCategoryTitle {
   padding: 8px 0 0;
+  font-weight: bold;
 }
 
 .sidebarItemTitle {
   padding: 2px 6px 0;
+}
+
+.svg-triangle {
+  vertical-align: middle;
 }
 
 #main {
@@ -58,6 +63,10 @@ a:hover {
   margin-top: 0;
   margin-left: 88px;
   margin-right: 8px;
+}
+
+.mainItemTitleCategory {
+  color: #adadad;
 }
 
 .mainItemTitlePrefix {
@@ -73,6 +82,19 @@ a:hover {
   font-size: 20px;
 }
 
+.mainDescription {
+  margin-left: 14px;
+}
+.mainDescriptionItem {
+  display: inline-block;
+  font-size: 15px;
+  margin-bottom: 12px;
+  margin-right: 4px;
+  padding: 6px 8px;
+  border-radius: 4px;
+  border: #f0f0f0 2px solid;
+}
+
 .mainItemExampleBlock {
   padding: 2px;
   margin-bottom: 14px;
@@ -81,14 +103,6 @@ a:hover {
 .mainExamplePrefix {
   width: 14px;
   display: inline-block;
-}
-
-.svg-triangle {
-  vertical-align: middle;
-}
-
-.mainItemTitleCategory {
-  color: #adadad;
 }
 
 .mainExampleTitle {

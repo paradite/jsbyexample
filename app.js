@@ -128,10 +128,6 @@ const stringItems = [
 
 const categories = [
   {
-    name: 'Truthy',
-    items: truthyItems,
-  },
-  {
     name: 'Array',
     items: arrayItems,
   },
@@ -142,6 +138,10 @@ const categories = [
   {
     name: 'String',
     items: stringItems,
+  },
+  {
+    name: 'Truthy',
+    items: truthyItems,
   },
 ];
 

@@ -23,4 +23,4 @@ $ python3 -m http.server
 - move `eval` to CI or build stage
 - syntax highlighting (something light weight)
 - Favicon
-- short explanation for some items
+- [x] short explanation for some items
